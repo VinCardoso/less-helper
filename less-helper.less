@@ -44,11 +44,16 @@
 	box-flex: @flex;
 }
 
-.filter(@arguments){
+.filter (@arguments){
 	filter: @arguments;
 	-moz-filter: @arguments;
 	-webkit-filter: @arguments;
 	-o-filter: @arguments;
+}
+
+.clip-path (@arguments){
+	-webkit-clip-path: @arguments;
+	clip-path: @arguments;
 }
 
 // - - - - - Helper
